@@ -38,25 +38,13 @@ aggregator/
 - **Each section** on the home page has its own accent color via `--accent`. To recolor a section, edit `#work { --accent: var(--cyan); }` etc.
 - **Photo placeholders** on the About page are styled blocks with the filename and dimensions baked in. Replace each `<div class="photo-placeholder">...</div>` with `<img src="assets/your-photo.jpg" alt="..." loading="lazy">` when you're ready.
 
-## Deploy to GitHub Pages
-
-1. Push this folder to a repo (recommended name: `stavion-colquitt.github.io` for the username repo, or any name if you'll enable Pages on it).
-2. In Cloudflare DNS for `stavioncolquitt.com`, add these `A` records pointing at GitHub Pages:
-   ```
-   A    @    185.199.108.153
-   A    @    185.199.109.153
-   A    @    185.199.110.153
-   A    @    185.199.111.153
-   ```
-3. In the repo on GitHub: `Settings → Pages → Custom domain` → enter `stavioncolquitt.com`. GitHub issues a Let's Encrypt cert automatically within 10–30 min.
-4. Site goes live at `stavioncolquitt.com`.
 
 ## Roadmap
 
-- Replace photo placeholders with real images
+- Replace my photos with your images
 - Add a Writing section
-- Build the auto-update tool (poll GitHub + Spotify + YouTube weekly, draft PRs with new content)
+- Build your own site!
 
 ## License
 
-Site content © Stavion Colquitt. Code structure free to fork and adapt — credit appreciated, not required.
+Site content © Stavion Colquitt. Code structure free to fork and adapt — credit appreciated.
