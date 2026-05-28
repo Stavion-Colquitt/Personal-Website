@@ -1,0 +1,7 @@
+# Robots policy for stavioncolquitt.com
+# Hand-built site. Crawl freely.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://stavioncolquitt.com/sitemap.xml
