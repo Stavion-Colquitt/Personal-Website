@@ -24,6 +24,21 @@
 
 <link rel="stylesheet" href="styles.css">
 
+<style>
+  /* Page-link nav pills — visually distinct; these LEAVE the current page */
+  .hero__nav a.hero__nav__page {
+    display: inline-flex; align-items: center; gap: 0.45rem;
+    color: var(--violet); border-color: var(--violet);
+    background: rgba(167, 139, 250, 0.10);
+  }
+  .hero__nav a.hero__nav__page span { transition: transform 200ms var(--ease); }
+  .hero__nav a.hero__nav__page:hover {
+    color: var(--bg); background: var(--violet);
+    border-color: var(--violet); transform: translateY(-2px);
+  }
+  .hero__nav a.hero__nav__page:hover span { transform: translateX(3px); }
+</style>
+
 <!-- Structured Data: AboutPage -->
 <script type="application/ld+json">
 {
@@ -63,8 +78,8 @@
     <nav class="hero__nav" aria-label="Section navigation">
       <a href="index.html#work">Work</a>
       <a href="index.html#music">Music</a>
-      <a href="credentials.html">Credentials</a>
       <a href="index.html#connect">Connect</a>
+      <a class="hero__nav__page" href="credentials.html">Go to Credentials Page <span aria-hidden="true">→</span></a>
     </nav>
   </header>
 
