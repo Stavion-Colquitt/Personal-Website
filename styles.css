@@ -815,3 +815,26 @@ body[data-page="credentials"] .photo img:hover {
   transform: rotate(90deg);
   background: rgba(251, 113, 133, 0.1);
 }
+
+
+/* Business clipping — small, floated right, cropped to the article */
+.photo--biz {
+  float: right;
+  width: 230px;
+  max-width: 42%;
+  margin: 0.35rem 0 1rem 1.75rem;
+}
+.photo--biz img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+@media (max-width: 640px) {
+  .photo--biz {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 1rem 0 1.25rem;
+  }
+}
