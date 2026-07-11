@@ -6,7 +6,7 @@
   "use strict";
 
   // ── EDIT THIS LINE to change the ticker everywhere ──
-  var STATUS_TEXT = 'Now playing — <em>Pay Attention</em> · out everywhere you stream, go give it a spin';
+  var STATUS_TEXT = 'New song — <em>Wanna Sleep</em> · in the works';
 
   function applyStatus() {
     var el = document.querySelector(".status-now");
