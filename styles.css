@@ -282,8 +282,6 @@ code {
   transition: gap 200ms var(--ease);
 }
 .project__link:hover { gap: 0.7rem; }
-.project--ghost { opacity: 0.65; background: transparent; border-style: dashed; }
-.project--ghost .project__title { font-style: italic; }
 
 /* ============================================================
    MUSIC
