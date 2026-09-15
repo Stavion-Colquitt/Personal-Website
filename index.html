@@ -38,6 +38,38 @@
     border-color: var(--violet); transform: translateY(-2px);
   }
   .hero__nav a.hero__nav__page:hover span { transform: translateX(3px); }
+
+  /* Research — work-in-progress banner */
+  .wip {
+    border: 2px dashed var(--gold);
+    border-radius: 14px;
+    background: rgba(251, 191, 36, 0.06);
+    padding: clamp(1.5rem, 5vw, 2.75rem) 1.25rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .wip__tape {
+    font-size: clamp(1rem, 3.5vw, 1.5rem);
+    letter-spacing: 0.35em;
+    line-height: 1.6;
+  }
+  .wip__big {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: clamp(2rem, 9vw, 4.5rem);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin: 0.5rem 0;
+  }
+  .wip__sub {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--ink-faint);
+  }
 </style>
 
 <!-- Structured Data: Person -->
@@ -109,6 +141,7 @@
     <nav class="hero__nav" aria-label="Section navigation">
       <a href="#work">Work</a>
       <a href="#music">Music</a>
+      <a href="#research">Research</a>
       <a href="#study">Study</a>
       <a href="#socials">Socials</a>
       <a href="#connect">Connect</a>
@@ -230,10 +263,39 @@
     </div>
   </section>
 
-  <!-- 03 STUDY -->
-  <section class="section" id="study">
+  <!-- 03 RESEARCH -->
+  <section class="section" id="research">
     <div class="section__head">
       <span class="section__num">03</span>
+      <h2 class="section__title">Research</h2>
+    </div>
+
+    <div class="wip">
+      <div class="wip__tape" aria-hidden="true">🚧 🚧 🚧 🚧 🚧</div>
+      <p class="wip__big">Under Construction</p>
+      <div class="wip__tape" aria-hidden="true">🚧 🚧 🚧 🚧 🚧</div>
+      <p class="wip__sub">Write-up in progress</p>
+    </div>
+
+    <p class="section__intro">
+      Current project: <b>an AI backing vocalist</b>. Existing tools execute an
+      arrangement decision you have already made &mdash; pick the harmony, set the
+      interval, print it. This system makes the decision instead. Given a lead
+      vocal, the instrumental and the lyrics, it predicts what belongs on each
+      beat: a double, a harmony, a call and response, an ad&#8209;lib, a sound
+      effect, or nothing at all.
+    </p>
+    <p class="section__intro">
+      Trained on separated stems from my own catalogue, where I know what was sung
+      and why it was sung there. Being written up with two research advisors.
+      More here once it is further along.
+    </p>
+  </section>
+
+  <!-- 04 STUDY -->
+  <section class="section" id="study">
+    <div class="section__head">
+      <span class="section__num">04</span>
       <h2 class="section__title">Study</h2>
     </div>
     <ol class="timeline">
@@ -260,10 +322,10 @@
     </ol>
   </section>
 
-  <!-- 04 SOCIALS -->
+  <!-- 05 SOCIALS -->
   <section class="section" id="socials">
     <div class="section__head">
-      <span class="section__num">04</span>
+      <span class="section__num">05</span>
       <h2 class="section__title">Socials</h2>
     </div>
     <p class="section__intro">
@@ -289,10 +351,10 @@
     </div>
   </section>
 
-  <!-- 05 CONNECT -->
+  <!-- 06 CONNECT -->
   <section class="section" id="connect">
     <div class="section__head">
-      <span class="section__num">05</span>
+      <span class="section__num">06</span>
       <h2 class="section__title">Connect</h2>
     </div>
     <p class="section__intro">
