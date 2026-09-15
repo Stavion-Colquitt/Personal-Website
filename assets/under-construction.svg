@@ -1,0 +1,43 @@
+<svg viewBox="0 0 540 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Under construction badge with a half-built waveform">
+  <defs>
+    <pattern id="tape" width="44" height="44" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="44" height="44" fill="#fbbf24"/>
+      <rect width="22" height="44" fill="#15102a"/>
+    </pattern>
+    <path id="arcTop" d="M 270,180 m -94,0 a 94,94 0 0 1 188,0" fill="none"/>
+    <path id="arcBot" d="M 270,180 m -106,0 a 106,106 0 0 0 212,0" fill="none"/>
+  </defs>
+  <g opacity="0.95">
+    <g transform="rotate(20 270 180)">
+      <rect x="-90" y="146" width="720" height="68" fill="url(#tape)"/>
+      <rect x="-90" y="146" width="720" height="68" fill="none" stroke="#15102a" stroke-width="3"/>
+    </g>
+    <g transform="rotate(-20 270 180)">
+      <rect x="-90" y="146" width="720" height="68" fill="url(#tape)"/>
+      <rect x="-90" y="146" width="720" height="68" fill="none" stroke="#15102a" stroke-width="3"/>
+    </g>
+  </g>
+  <circle cx="270" cy="180" r="118" fill="#15102a" stroke="#fbbf24" stroke-width="7"/>
+  <circle cx="270" cy="180" r="78" fill="#fbbf24"/>
+  <g font-family="Bricolage Grotesque,Helvetica Neue,system-ui,sans-serif" font-weight="800" fill="#fbbf24" font-size="26" letter-spacing="4">
+    <text text-anchor="middle"><textPath href="#arcTop" startOffset="50%">UNDER</textPath></text>
+    <text text-anchor="middle"><textPath href="#arcBot" startOffset="50%">CONSTRUCTION</textPath></text>
+  </g>
+  <g fill="#15102a">
+    <rect x="218" y="171" width="5" height="18" rx="2.5"/>
+    <rect x="227" y="164" width="5" height="32" rx="2.5"/>
+    <rect x="236" y="155" width="5" height="50" rx="2.5"/>
+    <rect x="245" y="148" width="5" height="64" rx="2.5"/>
+    <rect x="254" y="153" width="5" height="54" rx="2.5"/>
+    <rect x="263" y="162" width="5" height="36" rx="2.5"/>
+    <rect x="272" y="150" width="5" height="60" rx="2.5"/>
+  </g>
+  <g fill="none" stroke="#15102a" stroke-width="2" stroke-dasharray="4 3" opacity="0.75">
+    <rect x="281" y="157" width="5" height="46" rx="2.5"/>
+    <rect x="290" y="166" width="5" height="28" rx="2.5"/>
+    <rect x="299" y="160" width="5" height="40" rx="2.5"/>
+    <rect x="308" y="169" width="5" height="22" rx="2.5"/>
+    <rect x="317" y="172" width="5" height="16" rx="2.5"/>
+  </g>
+  <line x1="210" y1="180" x2="330" y2="180" stroke="#15102a" stroke-width="1.5" opacity="0.35"/>
+</svg>

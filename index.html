@@ -48,20 +48,12 @@
     text-align: center;
     margin-bottom: 2rem;
   }
-  .wip__tape {
-    font-size: clamp(1rem, 3.5vw, 1.5rem);
-    letter-spacing: 0.35em;
-    line-height: 1.6;
-  }
-  .wip__big {
-    font-family: var(--font-display);
-    font-weight: 800;
-    font-size: clamp(2rem, 9vw, 4.5rem);
-    line-height: 1.05;
-    letter-spacing: -0.02em;
-    color: var(--gold);
-    text-transform: uppercase;
-    margin: 0.5rem 0;
+  .wip__badge {
+    display: block;
+    width: 100%;
+    max-width: 30rem;
+    height: auto;
+    margin: 0 auto 0.75rem;
   }
   .wip__sub {
     font-family: var(--font-mono);
@@ -271,9 +263,8 @@
     </div>
 
     <div class="wip">
-      <div class="wip__tape" aria-hidden="true">🚧 🚧 🚧 🚧 🚧</div>
-      <p class="wip__big">Under Construction</p>
-      <div class="wip__tape" aria-hidden="true">🚧 🚧 🚧 🚧 🚧</div>
+      <img class="wip__badge" src="assets/under-construction.svg"
+           alt="Under construction" width="540" height="360" loading="lazy">
       <p class="wip__sub">Write-up in progress</p>
     </div>
 
