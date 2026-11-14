@@ -1,5 +1,8 @@
 # stavioncolquitt.com
 
+> **AI disclosure:** This site was built with AI assistance (Claude, by Anthropic) for code and copy edits.
+> All creative and technical decisions are mine, and I reviewed every change before publishing.
+
 Personal site and project aggregator. Built 2026.
 
 ## Stack
