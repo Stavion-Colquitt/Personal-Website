@@ -108,6 +108,7 @@
   "sameAs": [
     "https://github.com/Stavion-Colquitt",
     "https://github.com/stavioncolquitt-cyber",
+    "https://huggingface.co/Stavion-Colquitt",
     "https://open.spotify.com/artist/6q3Ld18OFCXzbAf23ON096",
     "https://music.apple.com/us/artist/stavion-colquitt/1630547791",
     "https://www.youtube.com/channel/UCoC7Vw33q6ASvgdNUXbjvbA",
@@ -170,7 +171,7 @@
     </div>
     <p class="section__intro">
       Real-time speech enhancement, edge ML, and production AI architecture and much more!
-      Selected open source below — more on <a href="https://github.com/Stavion-Colquitt">GitHub</a>.
+      Selected open source below — more on <a href="https://github.com/Stavion-Colquitt">GitHub</a> and <a href="https://huggingface.co/Stavion-Colquitt">🤗 Hugging Face</a>.
       Coursework lives separately under <a href="https://github.com/stavioncolquitt-cyber">School Projects</a>.
     </p>
     <div class="projects">
@@ -180,13 +181,36 @@
           <span class="project__year">2026</span>
         </header>
         <p class="project__desc">
-          Real-time background noise suppression for Teams and Zoom.
-          Custom U-Net trained on DNS Challenge 4. ONNX CPU inference.
-          Built from scratch — dataset, model, training, live pipeline.
+          Real-time background noise suppression for Teams and Zoom, built from scratch:
+          dataset, model, training, live pipeline. v4 is a 10 ms streaming GRU and the
+          first version to beat the noisy input on every metric (PESQ 1.97 to 2.58 on
+          VoiceBank-DEMAND). ONNX CPU inference.
         </p>
-        <ul class="project__tags"><li>PyTorch</li><li>ONNX</li><li>Real-time DSP</li><li>U-Net</li></ul>
+        <ul class="project__tags"><li>PyTorch</li><li>ONNX</li><li>Real-time DSP</li><li>GRU</li></ul>
         <a class="project__link" href="https://github.com/Stavion-Colquitt/Audio_ML_Noise_Reduction">
           View repo <span>→</span>
+        </a>
+        <a class="project__link" href="https://huggingface.co/Stavion-Colquitt/Call_Denoiser_V4">
+          🤗 Model on Hugging Face <span>→</span>
+        </a>
+      </article>
+      <article class="project">
+        <header class="project__head">
+          <h3 class="project__title">DAW Vocal Denoiser</h3>
+          <span class="project__year">2026</span>
+        </header>
+        <p class="project__desc">
+          Real-time vocal denoiser for tracking in a DAW: 48 kHz, 10 ms latency.
+          Trained on my own vocal takes, VocalSet and DNS speech against room tone,
+          hiss, hum and headphone bleed, and built to leave clean takes alone.
+          PESQ 2.37 to 3.05 on held-out singing.
+        </p>
+        <ul class="project__tags"><li>PyTorch</li><li>ONNX</li><li>Low latency</li><li>Music production</li></ul>
+        <a class="project__link" href="https://github.com/Stavion-Colquitt/Daw-Vocal-Denoiser">
+          View repo <span>→</span>
+        </a>
+        <a class="project__link" href="https://huggingface.co/Stavion-Colquitt/DAW_Vocal_Denoiser">
+          🤗 Model on Hugging Face <span>→</span>
         </a>
       </article>
       <article class="project">
@@ -379,6 +403,10 @@
       </a>
       <a class="connect-card" href="https://github.com/Stavion-Colquitt">
         <div class="connect-card__label">GitHub</div>
+        <div class="connect-card__value">Stavion-Colquitt</div>
+      </a>
+      <a class="connect-card" href="https://huggingface.co/Stavion-Colquitt">
+        <div class="connect-card__label">🤗 Hugging Face</div>
         <div class="connect-card__value">Stavion-Colquitt</div>
       </a>
       <a class="connect-card" href="https://open.spotify.com/artist/6q3Ld18OFCXzbAf23ON096">
